@@ -49,7 +49,7 @@ public class BookController {
                     model.addAttribute("userBooks", new UserBooks());
                 }
             }
-            return "book";
+            return "books";
 
 
         }
